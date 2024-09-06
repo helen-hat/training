@@ -741,30 +741,11 @@ border-radius: 20px;
         margin: 5px 75px;
         margin-bottom: 2em;
     }
-    
-    .us{
-        background-color: #f9f9fb;
+    .aboutus p{
+        font-size: 10px;
     }
-    .aboutus{
-        
-        margin-bottom: 2em; 
-        margin: 5px 75px;
-    }
-    .aboutus1{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 2em;
-    }
-    .aboutus2{
-        display: flex;
-        justify-content: space-evenly; 
-        margin-bottom: 2em;
-        flex-wrap: wrap;
-        
-    }
-    
-    .aboutus2 > div, .aboutus4 > div{
-        padding: 1em 1em;
+    .aboutus h1{
+        font-size: 18px;
     }
     
     .aboutus3{
@@ -774,12 +755,12 @@ border-radius: 20px;
         flex-direction: column;
         border-radius: 12px;
         margin: 0px 20px;
-        margin-bottom: 1em;
         justify-content:center;
         flex: 1 1 auto;
-        max-width: 250px; 
+        max-width: 550px; 
         overflow-wrap: break-word;
         text-align: left;
+        margin-bottom: 1em;
     }
     .aboutus4{
         background-color: #ffffff;
@@ -787,13 +768,13 @@ border-radius: 20px;
         display: flex;
         flex-direction: column;
         border-radius: 12px;
-        margin: 0px 10px;
+        margin: 0px 20px;
         justify-content:center;
         flex: 1 1 auto;
-        max-width: 250px; 
+        max-width: 550px; 
         overflow-wrap: break-word;
         text-align: left;
-        
+        margin-bottom: 1em;
     }
     .aboutus5{
         background-color: #ffffff;
@@ -805,7 +786,7 @@ border-radius: 20px;
         margin-bottom: 1em;
         justify-content:center;
         flex: 1 1 auto;
-        max-width: 250px;  
+        max-width: 550px;  
         overflow-wrap: break-word;
         text-align: left;
     }
@@ -818,7 +799,7 @@ border-radius: 20px;
         margin: 5px 10px;
         justify-content:center;
         flex: 1 1 auto;
-        max-width: 250px; 
+        max-width: 550px; 
         overflow-wrap: break-word;
         text-align: left;
     }
@@ -831,7 +812,7 @@ border-radius: 20px;
         margin: 5px 10px;
         justify-content:center;
         flex: 1 1 auto;
-        max-width: 250px; 
+        max-width: 550px; 
         overflow-wrap: break-word;
         text-align: left;
         
@@ -845,7 +826,7 @@ border-radius: 20px;
         margin: 5px 10px;
         justify-content:center;
         flex: 1 1 auto;
-        max-width: 250px; 
+        max-width: 50px; 
         overflow-wrap: break-word;
         text-align: left;
     }
