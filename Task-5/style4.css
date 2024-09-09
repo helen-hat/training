@@ -1,0 +1,90 @@
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+}
+.section1{
+    background: linear-gradient(to right, #3851da 0%, #3851da 100%);
+}
+.section11{
+    color: white;
+    margin-top: 4rem;
+    margin-bottom: 2 rem;
+}
+.section11 p{
+    font-size: 12px;
+}
+.section11 h1{
+    padding: 8px;
+}
+
+.section1 button{
+margin-bottom: 2rem;
+}
+.section11 img{
+    width: 50%;
+}
+.navbar-brand{
+width: 50;
+height: 24;
+}
+.sec21{
+padding: 40px 0px;
+margin-top: 3em;
+}
+.sec211{
+    border-bottom: 2px solid orange;
+    margin-top: 1em;
+}
+  .overlay {
+    position: relative;
+    width: 100%;
+  }
+
+  .dots-background {
+    position: relative;
+    z-index: 1;
+    max-width: 100%;
+    width: 40%;
+    height: auto;
+    margin-top: 50%;
+    display: block;
+  }
+
+  .overlay1 {
+    position: absolute;
+    bottom: 5%;
+    left: 5%; 
+    z-index: 2;
+    cursor: pointer;
+    max-width: 100%;
+    width: 80%;
+    height: 100%;
+    border-radius: 1em;
+  }
+  .scrolling-wrapper {
+    display: flex;
+    overflow-x: auto;
+    padding: 20px;
+    gap: 20px;
+}
+
+.card {
+    min-width: 300px; 
+    flex: 0 0 auto;
+}
+
+.card-img-top {
+    height: 200px; 
+    object-fit: cover;
+}
+
+.floating-form {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+.section111{
+    border: 1px solid #ddd;
+    background-color: white;
+    padding: 40px 70px;
+}
