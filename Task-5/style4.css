@@ -13,24 +13,36 @@ h6 {
 }
 
 /* Nav bar*/
+.navbar2{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
 
 .nav{
     justify-content: right;
 }
 
 .nav1{
-    justify-content: space-between;
+    margin-bottom: 0px!important;
 }
 
 .section1 {
     background: linear-gradient(to right, #3851da 0%, #3851da 100%);
+}
+.button1{
+    border: none;
+    background-color: rgb(224, 109, 92);
+    color: white;
+}
+.button1:hover{
+    background-color: rgb(224, 109, 92);
+    color: white;
 }
 
 /*Saas landing Page*/
 
 .section11 {
     color: white;
-    margin-top: 4rem;
     margin-bottom: 2 rem;
 }
 
@@ -42,10 +54,6 @@ h6 {
     padding: 8px;
 }
 
-.section1 button {
-    margin-bottom: 2rem;
-}
-
 .section11 img {
     width: 50%;
 }
@@ -55,22 +63,40 @@ h6 {
     height: 24;
 }
 
-/* Logo section */
-.sec21 {
-    padding: 60px 1px 100px;
-    margin: 50px;
-    position: relative;
+.button2{
+    border: none;
+    background-color: rgba(65, 228, 171, 0.944);
+    color: white;
+    padding: 5px 30px;
+
+}
+.button2:hover{
+    background-color: rgba(65, 228, 171, 0.944);
+    color: white;
 }
 
-.sec21::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    width: 12%;
-    transform: translateX(-50%);
-    border-bottom: 5px solid rgb(252, 132, 152);
+.saas1{
+    margin-bottom: 2em;
 }
+
+.saas2{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+/* Logo section */
+.sec21 {
+    margin: 100px 0px;
+}
+.sec211{
+    padding: 10px;
+    max-width: 100%;
+    width: 200px;
+}
+
+/* .sec12{
+    align-content: center;
+} */
+
 
 /* For Section 3 (Clean and simple design) */
 
@@ -158,6 +184,36 @@ h6 {
 }
 
 /*circle*/
+
+.counter-wrapper .single-counter{
+    max-width: 155px;
+    height: 120px;
+    border-radius: 60px;
+    position: relative;
+    z-index: 5;
+    margin-top: 60px;
+}
+.counter-wrapper::before .single-counter::before{
+    position: absolute;
+    content:"";
+    width: 155px;
+    height: 120px;
+    border-radius: 60px;
+    top: 0;
+    left:0;
+    transform: rotate(-45deg);
+    z-index: -1;
+}
+.counter-wrapper .single-counter .counter-color-1::before{
+    background-color: #2f9fcc;
+}
+
+.counter-wrapper .single-counter .count{
+    font-size: 22px;
+    font-weight: 700;
+    color: white;
+}
+
 
 .heading2 {
     text-align: left;
@@ -503,6 +559,9 @@ card11 p {
     margin-top: 20px;
     font-size: 14px;
 }
+.foot{
+    margin-bottom: 0!important;
+}
 
 /* Blog Section*/
 .blog-section {
@@ -524,14 +583,14 @@ card11 p {
     margin-right: 10px;
 }
 
-.blog5 {
+ .blog5 {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
-    gap: 15px;
+    gap: 35px;
     padding: 0px;
     margin-bottom: 2em;
-    align-items: stretch;
-}
+} 
 
 .blog1 {
     border: none;
