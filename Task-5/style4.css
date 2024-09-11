@@ -166,21 +166,16 @@ h6 {
 
 /* For Section 4 */
 
+
 .block {
-    max-width: 800px;
-    height: 400px;
-    justify-content: space-between;
-    margin: 4em 2em 4em 0em;
+    max-width: 100%; 
+    height: auto;
+    margin: 2em 0; 
 }
 
-.block1 {
+.block1 .block2 {
+    padding: 2em; 
     text-align: left;
-    margin: 4em 2em 4em 0em;
-}
-
-.block2 {
-    text-align: left;
-    margin: 4em 2em 4em 0em;
 }
 
 /*circle*/
@@ -282,14 +277,14 @@ h6 {
     transform: rotate(-50deg);
 }
 
-.circle1 {
+/* .circle1 {
     width: 60px;
     height: 60px;
     border-radius: 30%;
     position: absolute;
     top: -20px;
     transform: rotate(25deg);
-}
+} */
 
 
 .card11:nth-child(1) {
@@ -584,12 +579,9 @@ card11 p {
 }
 
  .blog5 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    gap: 35px;
     padding: 0px;
     margin-bottom: 2em;
+    justify-content: center;
 } 
 
 .blog1 {
